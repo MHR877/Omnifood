@@ -1,0 +1,71 @@
+$color-grey-light-1 : #888;
+$color-grey-light-2 : #767676;
+$color-grey-light-3 : #6f6f6f;
+$color-grey-light-4 : #555;
+$color-grey-light-5 : #333;
+
+$color-shades-1: #cf711f;
+$color-shades-2: #45260a;
+
+$color-primary: #e67e22;
+$color-primary-1: #eb984e;
+$color-primary-2: #fdf2e9;
+$color-primary-3: #fae5d3;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    overflow-x: hidden;
+}    
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}    
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}    
+
+.list-item {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    line-height: 1.2;
+}    
+
+.list-icon {
+    width: 3rem;
+    height: 3rem;
+    color: $color-primary;
+}    
+
+::selection {
+    background-color: $color-primary;
+    color: #fff;
+}
